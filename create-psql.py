@@ -11,7 +11,6 @@ cur.execute("""CREATE TABLE IF NOT EXISTS person(
     name VARCHAR (255),
     age INT,
     gender CHAR
-    );
 """)
             
 conn.commit()
