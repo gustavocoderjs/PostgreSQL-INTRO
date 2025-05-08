@@ -11,7 +11,9 @@ CREATE TABLE pedidos (
 );
 
 INSERT INTO clientes (nome) VALUES ('Maria');
+INSERT INTO clientes (nome) VALUES ('Pedro');
 INSERT INTO pedidos (cliente_id, descricao) VALUES (1, 'Pedido 1'), (1, 'Pedido 2');
+
 
 DELETE FROM clientes WHERE id = 1;
 
