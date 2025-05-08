@@ -18,3 +18,5 @@ INSERT INTO pedidos (cliente_id, descricao) VALUES (1, 'Pedido 1'), (1, 'Pedido 
 DELETE FROM clientes WHERE id = 1;
 
 
+
+
