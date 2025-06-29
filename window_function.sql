@@ -14,5 +14,3 @@ SELECT
     salario,
     AVG(salario) OVER (PARTITION BY departamento) AS media_salarial_departamento
 FROM funcionarios;
-
-SELECT
