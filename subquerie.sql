@@ -19,3 +19,10 @@ FROM funcionarios;
 
 -- 
 
+SELECT account_table.*
+	FROM (
+		SELECT *
+		FROM transaction.sf_model_feature_2014_01
+		WHERE day_of_week = 'Friday'
+		) account_table
+	WHERE account_table.availability = 'YES'
